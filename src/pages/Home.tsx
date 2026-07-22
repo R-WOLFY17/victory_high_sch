@@ -7,7 +7,6 @@ import StatsSection from '../components/sections/StatsSection';
 import AboutPreview from '../components/sections/AboutPreview';
 import ValuesSection from '../components/sections/ValuesSection';
 import WhyChooseUs from '../components/sections/WhyChooseUs';
-import NewsSection from '../components/sections/NewsSection';
 import TestimonialsSection from '../components/sections/TestimonialsSection';
 import CTASection from '../components/sections/CTASection';
 import { schoolInfo } from '../data/schoolData';
@@ -82,7 +81,6 @@ export default function Home() {
         </div>
       </section>
 
-      <NewsSection />
       <TestimonialsSection />
       <CTASection />
     </>

@@ -27,37 +27,19 @@ export default function AboutPreview() {
           >
             <div className="relative grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <div className="rounded-2xl overflow-hidden h-48 bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800 flex items-center justify-center">
+                <div className="rounded-2xl overflow-hidden h-48 bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800">
                   <img
-                    src="/images/campus/campus1.jpg"
+                    src="/4.jpeg"
                     alt="School campus"
                     className="w-full h-full object-cover"
-                    onError={e => {
-                      const t = e.target as HTMLImageElement;
-                      t.style.display = 'none';
-                      t.nextElementSibling?.classList.remove('hidden');
-                    }}
                   />
-                  <div className="hidden text-blue-400 text-center p-4">
-                    <div className="text-4xl mb-2">🏫</div>
-                    <div className="text-sm">Campus Photo</div>
-                  </div>
                 </div>
-                <div className="rounded-2xl overflow-hidden h-40 bg-gradient-to-br from-emerald-100 to-emerald-200 dark:from-emerald-900 dark:to-emerald-800 flex items-center justify-center">
+                <div className="rounded-2xl overflow-hidden h-40 bg-gradient-to-br from-emerald-100 to-emerald-200 dark:from-emerald-900 dark:to-emerald-800">
                   <img
-                    src="/images/campus/classroom.jpg"
+                    src="/15.png"
                     alt="Classroom"
                     className="w-full h-full object-cover"
-                    onError={e => {
-                      const t = e.target as HTMLImageElement;
-                      t.style.display = 'none';
-                      t.nextElementSibling?.classList.remove('hidden');
-                    }}
                   />
-                  <div className="hidden text-emerald-400 text-center p-4">
-                    <div className="text-3xl mb-2">📚</div>
-                    <div className="text-sm">Classroom</div>
-                  </div>
                 </div>
               </div>
               <div className="space-y-4 mt-6">
